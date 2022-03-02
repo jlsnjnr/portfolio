@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import styles from './styles.module.scss';
-import mypic from './../../../public/images/im.svg'
+import mypic from './../../../public/images/im.png'
 import { AiFillGithub, AiOutlineBehance, AiOutlineLinkedin, AiOutlineWhatsApp } from "react-icons/ai";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -33,7 +33,7 @@ export function HomePage() {
                 className={styles.image}
                 width={120} 
                 height={120} 
-                unoptimized={false}
+                unoptimized={true}
                 objectFit="cover" 
               />
 
